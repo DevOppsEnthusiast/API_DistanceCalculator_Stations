@@ -8,19 +8,18 @@ This project implements a web service with a REST API to calculate the distance 
 The distance is expressed in kilometers as the crow flies and is rounded to the nearest whole kilometer.   
 The service offers the following REST API endpoint:  
 
-GET /api/v1/distance/{from}/{to}
+**GET /api/v1/distance/{from}/{to}**
 
-Example request:
-bash
-GET /api/v1/distance/FF/BLS
+Example request:  
+**GET /api/v1/distance/FF/BLS**
 
-Example response (JSON):
-{
-  "from": "Frankfurt(Main)Hbf",
-  "to": "Berlin Hbf",
-  "distance": 423,
-  "unit": "km"
-}
+Example response (JSON):  
+{  
+  "from": "Frankfurt(Main)Hbf",  
+  "to": "Berlin Hbf",  
+  "distance": 423,  
+  "unit": "km"  
+}  
 
 The web service is built using Java with Spring Boot.
 
