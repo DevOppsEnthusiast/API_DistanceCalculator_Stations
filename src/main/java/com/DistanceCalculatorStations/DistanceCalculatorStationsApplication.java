@@ -17,7 +17,7 @@ import java.util.Map;
 
 @SpringBootApplication
 public class DistanceCalculatorStationsApplication {
-    private static final String CSV_FILE_PATH = "..\\entfernungsrechnerBahnhoefe\\D_Bahnhof_2020_alle.CSV";
+    private static final String CSV_FILE_PATH = "CsvStations\\D_Bahnhof_2020_alle.CSV";
 
     public static void main(String[] args) {
         SpringApplication.run(DistanceCalculatorStationsApplication.class, args);
@@ -42,10 +42,10 @@ public class DistanceCalculatorStationsApplication {
             String errorMessage = "";
 
             if (fromStation == null) {
-                errorMessage = fromCode + " ist kein gültiger DS100-Code für FV-Bahnhöfe. <br>";
+                errorMessage = fromCode + " is not a valid DS-100 Code for long-distance stations. <br>";
             }
             if (toStation == null) {
-                errorMessage = errorMessage + toCode + " ist kein gültiger DS100-Code für FV-Bahnhöfe.";
+                errorMessage = errorMessage + toCode + " is not a valid DS-100 Code for long-distance stations.";
             }
             if (errorMessage != "") {
                 throw new IllegalArgumentException(errorMessage);
