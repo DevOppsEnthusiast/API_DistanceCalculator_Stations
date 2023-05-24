@@ -49,15 +49,15 @@ If the CSV file is located at a different location, adjust the path accordingly.
 
 # API Documentation
 
-GET /api/v1/distance/{from}/{to}  
+**GET /api/v1/distance/{from}/{to}**  
 Calculates the distance between the specified stations.  
 
 Path parameters:  
-  {from}: The DS100 code of the origin station.  
-  {to}: The DS100 code of the destination station.  
+  **{from}: The DS100 code of the origin station.**  
+  **{to}: The DS100 code of the destination station.**  
 
 Example request:  
-   GET /api/v1/distance/FF/BLS  
+   **GET /api/v1/distance/FF/BLS**  
 
 Example response (JSON):  
     **{  
