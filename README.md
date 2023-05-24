@@ -27,16 +27,16 @@ The web service is built using Java with Spring Boot.
 
 To run and test the web service, you need the following components:
 
-Java Development Kit (JDK) 8 or later  
-An integrated development environment like IntelliJ IDEA or Eclipse (optional)  
-Maven as the build tool (optional)  
+- Java Development Kit (JDK) 8 or later  
+- An integrated development environment like IntelliJ IDEA or Eclipse (optional)  
+- Maven as the build tool (optional)  
 
 # Installation and Execution
 
-Clone the GitHub repository or download the source code as a ZIP file.  
-Import the project into your IDE (if available).  
-Make sure that the required dependencies and libraries are downloaded (this is usually done automatically by Maven).  
-Open the DistanceCalculatorStationsApplication.java file and run the application or use your preferred build tool to compile and run the application.  
+1. Clone the GitHub repository or download the source code as a ZIP file.  
+2. Import the project into your IDE (if available).  
+3. Make sure that the required dependencies and libraries are downloaded (this is usually done automatically by Maven).  
+4. Open the DistanceCalculatorStationsApplication.java file and run the application or use your preferred build tool to compile and run the application.  
 
 # Configuration
 
@@ -49,21 +49,20 @@ If the CSV file is located at a different location, adjust the path accordingly.
 
 # API Documentation
 
-GET /api/v1/distance/{from}/{to}
-Calculates the distance between the specified stations.
+GET /api/v1/distance/{from}/{to}  
+Calculates the distance between the specified stations.  
 
-    Path parameters:
-        {from}: The DS100 code of the origin station.
-        {to}: The DS100 code of the destination station.
+Path parameters:  
+  {from}: The DS100 code of the origin station.  
+  {to}: The DS100 code of the destination station.  
 
-    Example request:
-      GET /api/v1/distance/FF/BLS
+Example request:  
+   GET /api/v1/distance/FF/BLS  
 
-    Example response (JSON):
-
-{
-  "from": "Frankfurt(Main)Hbf",
-  "to": "Berlin Hbf",
-  "distance": 423,
-  "unit": "km"
-}
+Example response (JSON):  
+    **{  
+    "from": "Frankfurt(Main)Hbf",  
+      "to": "Berlin Hbf",  
+      "distance": 423,  
+      "unit": "km"  
+     }** 
