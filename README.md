@@ -1,12 +1,12 @@
 # API_DistanceCalculator_Stations
 
-This project provides a web service that calculates the straight-line distance between any two long-distance railway stations in Germany. 
-The service utilizes a CSV file containing the latitude and longitude coordinates of the stations, which is made available by DB Station&Service AG. 
-The CSV file includes information on approximately 360 stations served by ICs and ICEs.
+This project provides a web service that calculates the straight-line distance between any two long-distance railway stations in Germany.  
+The service utilizes a CSV file containing the latitude and longitude coordinates of the stations, which is made available by DB Station&Service AG.   
+The CSV file includes information on approximately 360 stations served by ICs and ICEs.  
 
-This project implements a web service with a REST API to calculate the distance between two stations. 
-The distance is expressed in kilometers as the crow flies and is rounded to the nearest whole kilometer. 
-The service offers the following REST API endpoint:
+This project implements a web service with a REST API to calculate the distance between two stations.   
+The distance is expressed in kilometers as the crow flies and is rounded to the nearest whole kilometer.   
+The service offers the following REST API endpoint:  
 
 GET /api/v1/distance/{from}/{to}
 
