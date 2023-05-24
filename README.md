@@ -27,16 +27,16 @@ The web service is built using Java with Spring Boot.
 
 To run and test the web service, you need the following components:
 
-Java Development Kit (JDK) 8 or later
-An integrated development environment like IntelliJ IDEA or Eclipse (optional)
-Maven as the build tool (optional)
+Java Development Kit (JDK) 8 or later  
+An integrated development environment like IntelliJ IDEA or Eclipse (optional)  
+Maven as the build tool (optional)  
 
 # Installation and Execution
 
-Clone the GitHub repository or download the source code as a ZIP file.
-Import the project into your IDE (if available).
-Make sure that the required dependencies and libraries are downloaded (this is usually done automatically by Maven).
-Open the DistanceCalculatorStationsApplication.java file and run the application or use your preferred build tool to compile and run the application.
+Clone the GitHub repository or download the source code as a ZIP file.  
+Import the project into your IDE (if available).  
+Make sure that the required dependencies and libraries are downloaded (this is usually done automatically by Maven).  
+Open the DistanceCalculatorStationsApplication.java file and run the application or use your preferred build tool to compile and run the application.  
 
 # Configuration
 
