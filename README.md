@@ -42,7 +42,7 @@ To run and test the web service, you need the following components:
 
 The path to the CSV file containing the station data is set in the DistanceCalculatorStationsApplication class:
 
-private static final String CSV_FILE_PATH = "..\\entfernungsrechnerBahnhoefe\\D_Bahnhof_2020_alle.CSV";
+private static final String CSV_FILE_PATH = "CsvStations\\D_Bahnhof_2020_alle.CSV";
 
 Please ensure that the path to the CSV file is correct.   
 If the CSV file is located at a different location, adjust the path accordingly.
