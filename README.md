@@ -50,7 +50,7 @@ If the CSV file is located at a different location, adjust the path accordingly.
 
 # API Documentation
 
-## GET /api/v1/distance/{from}/{to}
+GET /api/v1/distance/{from}/{to}
 Calculates the distance between the specified stations.
 
     Path parameters:
