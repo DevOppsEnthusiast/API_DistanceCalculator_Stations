@@ -14,12 +14,12 @@ Example request:
 **GET /api/v1/distance/FF/BLS**
 
 Example response (JSON):  
-{  
+**{
   "from": "Frankfurt(Main)Hbf",  
   "to": "Berlin Hbf",  
   "distance": 423,  
   "unit": "km"  
-}  
+}**  
 
 The web service is built using Java with Spring Boot.
 
