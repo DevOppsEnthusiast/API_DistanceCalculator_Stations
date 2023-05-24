@@ -6,8 +6,8 @@ The CSV file includes information on approximately 360 stations served by ICs an
 
 This project implements a web service with a REST API to calculate the distance between two stations.   
 The distance is expressed in kilometers as the crow flies and is rounded to the nearest whole kilometer.   
-The service offers the following REST API endpoint:  
 
+The service offers the following REST API endpoint:  
 **GET /api/v1/distance/{from}/{to}**
 
 Example request:  
