@@ -14,7 +14,7 @@ Example request:
 **GET /api/v1/distance/FF/BLS**
 
 Example response (JSON):  
-**{
+**{  
   "from": "Frankfurt(Main)Hbf",  
   "to": "Berlin Hbf",  
   "distance": 423,  
